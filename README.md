@@ -1,5 +1,6 @@
 <h2>Place Me: placement Tracker</h2>
-![alt text](file:///C:/Users/ARSH/Pictures/Screenshots/Screenshot%202024-01-27%20193449.png)
+![image](https://github.com/Arshsharma2500/Place-Me/assets/125749378/9733c2d1-543d-4715-b432-45d320877e1d)
+
 
 <h3>Problem Adressed</h3>
 
