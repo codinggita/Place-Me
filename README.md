@@ -1,5 +1,5 @@
 <h2>Place Me: placement Tracker</h2>
-![image](https://github.com/Arshsharma2500/Place-Me/assets/125749378/9733c2d1-543d-4715-b432-45d320877e1d)
+![placeMe logo](https://github.com/Arshsharma2500/Place-Me/blob/main/image.png)
 
 
 <h3>Problem Adressed</h3>
