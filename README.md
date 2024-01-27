@@ -1,5 +1,5 @@
 <h2>Place Me: placement Tracker</h2>
-![Alt text](image.png)
+![Alt text](placeMelogo.svg)
 
 <h3>Problem Adressed</h3>
 
