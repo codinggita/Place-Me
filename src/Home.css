@@ -1,0 +1,211 @@
+:root {
+  --fs-head1: normal normal bold 32px/65px Poppins-Bold;
+  --fs-head2: normal normal 600 28px/34px Poppins-SemiBold;
+  --fs-head3: normal normal 20px/32px Poppins-SemiBold;
+  --fs-head4: normal normal 18px/28px poppins-regular;
+  --fs-desc: normal normal 15px/27px poppins-regular;
+  --fs-h4boxdesc: normal normal 14px/20px poppins-regular;
+  --fs-subtitle: normal normal 15px/30px poppins-medium;
+}
+.landingPage{
+  display: flex;
+  flex-direction: column;
+}
+.Home{
+    /* padding-top: 12vh; */
+    
+    background-color: white;
+    background-color: #fafafafb;
+    background-blend-mode: multiply;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    
+    
+}
+.MidPage,.trackpage{
+  background-color: white;
+  background-color: #fafafafb;
+  background-blend-mode: multiply;
+  width: 100vw;
+  height: 90vh;
+  position: relative;
+}
+.headname{
+    
+    background: transparent linear-gradient(90deg,#6597CB 0%,#35369B 100%) 0% 0% no-repeat;
+    display: inline;
+    padding: 5px 0px 5px 0px;
+    color: #FFF;
+    font-size: 2em;
+    font-weight: 700;
+    font-family: inherit;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    color: inherit;
+    border-radius: 5px;
+    
+  
+}
+.righthome{
+    margin-left: 11vw;
+    width: 35vw;
+    margin-top: 7vh;
+    
+}
+.lefthome{
+  margin-left: 50vw;
+  width: 37vw;
+  margin-top: -50vh;
+  border-radius: 10px;
+}
+.lefthome video{
+  border-radius: 20px;
+  width: 35vw;
+  
+}
+.headname p{
+    display: inline;
+    color: #FFF;
+   
+}
+.headbody{
+    padding-top: 7vh;
+}
+.headlink{
+    padding-top: 7vh;
+    
+}
+.headlink a span{
+        position: relative;
+        font-size: 18px;
+        font-family: Poppins-BoldItalic;
+        color: #333399;
+        line-height: 18px;
+        font-weight: 900;
+        letter-spacing: 0.05em;
+        text-decoration: underline;
+        
+}
+
+.headlink a{
+    display: block;
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    text-align: center;
+    position: relative;
+    line-height: 40px;
+}
+  
+.headlink a span{
+    position: relative;
+    z-index: 1;
+  }
+  .headlink a span:hover{
+    position: relative;
+    z-index: 2;
+    color: white;
+  }
+  
+.headlink a:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0vw;
+    width: 0;
+    height: 100%;
+    border-radius: 30px;
+    background: transparent linear-gradient(90deg,#6597CB 0%,#35369B 100%) 0% 0% no-repeat;
+    transition: all .40s;
+    
+  }
+  
+.headlink a:hover{
+    color: #fff;
+    
+  }
+  
+.headlink a:hover:after{
+    width: 100%;
+    border-radius: 30px;
+    color: white;
+  }
+.circ{
+   width:50px;
+   height: 50px;
+   position: absolute;
+   background-color: rgb(146, 177, 214);
+   top: 60vh;
+   border-radius: 100%;
+}
+.MidPageCont{
+  margin-left: 11vw;
+  width: 78vw;
+  margin-right: 11vw;
+  text-align: center;
+  position: absolute;
+  top: 0vh;
+  
+    
+}
+.MidPageCont span{
+  color: #333399 !important;
+  font: var(--fs-head2);
+  
+}
+.rightshadow{
+  margin-left: 60vw;
+  width: 40vw;
+  height: 75vh;
+  background-color: hsl(0, 0%, 56%);
+  text-align: right;
+  border-radius: 10px;
+  opacity: 15%;
+  z-index: -1;
+}
+.box{
+  width: 78vw;
+  height: 50vh;
+  margin-left: 11vw;
+  /* background-color: black; */
+  position: absolute;
+  top: 17vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.box div{
+  width: 24vw;
+  height: 40vh;
+  background-color: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding-top: 4vh;
+  padding-left: 1vw;
+  box-shadow: 20px 20px 5px 4px #d0d0d03d;
+}
+.box div:hover{
+  background: transparent linear-gradient(90deg,#6597CB 0%,#35369B 100%) 0% 0% no-repeat;
+  cursor: text;
+  color: white;
+}
+.box div span{
+  font: var(--fs-head3);
+  font-weight: bold;
+  
+}
+.box div p{
+  font: var( --fs-desc);
+}
+.trackpagecont{
+  margin-left: 11vw;
+  margin-right: 11vw;
+}
+.trackpagecont p{
+  text-align: center;
+  color: #333399 !important;
+  font: var(--fs-head2);
+  margin-top: 0vh;
+}

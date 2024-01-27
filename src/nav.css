@@ -1,0 +1,63 @@
+.nav{
+    width: 100vw;
+    height: 12vh;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+}
+#logoimg{
+    width: 8vw;
+    height: 20vh;
+    margin-top: -4vh;
+}
+.navdiv{
+    width: 80vw;
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+    padding-left: 11vw;
+    padding-right: 11vw;
+}
+.list{
+    padding-left: 23vw;
+    width: 45vw;
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: end;
+    justify-content: space-between;
+    padding-top: 1vh;
+
+}
+.list a{
+    margin-top: 3vh;
+    font-weight: 500;
+    font-size: large;
+    font-family: poppins-regular !important;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.5);
+    color: #242424;
+    
+}
+.list button{
+    height: 6vh;
+    background: transparent linear-gradient(90deg,#6597CB 0%,#35369B 100%) 0% 0% no-repeat;
+    padding-top: 0vh;
+    margin-top: 1.5vh;
+    border-radius: 30px;
+    color: white;
+    font-weight: 500;
+    font-size: large;
+    padding-top: 1vh;
+    border-top: 1px solid rgba(0,0,0,0.3);
+    text-shadow: 0 1px 0 rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 1px 0 rgba(255,255,255,0.05) inset;
+    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.05) inset;
+    box-shadow: 0 1px 0 rgba(255,255,255,0.05) inset;
+    font-family: poppins-regular !important;
+
+}
+.list p:hover{
+    color: hwb(212 20% 36%);
+    cursor: pointer;
+}
