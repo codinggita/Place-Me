@@ -1,5 +1,5 @@
 <h2>Place Me: placement Tracker</h2>
-![Alt text](placeMelogo.svg)
+![alt text](file:///C:/Users/ARSH/Pictures/Screenshots/Screenshot%202024-01-27%20193449.png)
 
 <h3>Problem Adressed</h3>
 
