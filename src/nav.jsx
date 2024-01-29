@@ -12,7 +12,7 @@ function Nav() {
 
         <img id="logoimg" src={logo} alt="Logo"/>
         <div className='list'>
-            <a href="">Platfrom</a>
+            <a href="">My Profile</a>
             <a href="">Services</a>
             <a href="">Company</a>
             <a href="">Feedback</a>
