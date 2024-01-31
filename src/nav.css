@@ -30,7 +30,8 @@
     padding-top: 1vh;
 
 }
-.list a{
+.list p{
+    /* text-decoration: none; */
     margin-top: 3vh;
     font-weight: 500;
     font-size: large;
@@ -38,6 +39,12 @@
     text-shadow: 0 1px 0 rgba(0,0,0,0.5);
     color: #242424;
     
+}
+#link1{
+    color: #242424;
+}
+#link1:hover{
+    color: #35369B;
 }
 .list button{
     height: 6vh;
