@@ -1,26 +1,70 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-
-import viteLogo from '/vite.svg'
-import Nav from './nav.jsx'
-import Home from './Home.jsx'
-import './App.css'
+import { useState } from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Nav from './nav.jsx';
+import Home from './Home.jsx';
+import MyProfile from './Myprofile.jsx';
+import Company from './Company.jsx';
+import Feedback from './Feedback.jsx';
+import './App.css';
 
 function App() {
-  // const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
-      <div className='Home'>
-        <Nav>
+      <BrowserRouter>
+        <Routes>
+          
+          <Route
+            path="/"
+            element={
+              <div className="Home">
+                <Nav />
+                <Home />
+              </div>
+            }
+          />
 
-        </Nav>
-        <Home>
+          <Route
+            path="/myprofile"
+            element={
+              <div className='prof'>
+                <Nav />
+                <MyProfile />
+              </div>
+            }
+          />
 
-        </Home>
-      </div>
+          <Route
+          path='/company'
+          element={
+            <div className='company'>
+              <Nav />
+              <Company />
+            </div>
+          }/>
+
+          <Route
+          path='/feedback'
+          element={
+            <div className='feedback'>
+              <Nav />
+              <Feedback />
+            </div>
+          }/>
+
+          <Route
+            path="*"
+            element={
+              <div>
+                <p>kya bhai i am confused to route</p>
+              </div>
+            }
+          />
+        </Routes>
+      </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

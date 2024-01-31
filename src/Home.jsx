@@ -16,7 +16,7 @@ import Gmailicon from './assets/Gmailicon.png';
 import fbicon from './assets/facebook.png'
 import ldinicon from './assets/linkedin.png'
 import githubicon from './assets/github.png'
-
+import subsicon from './assets/subscimg.png'
 function home() {
     // const [count, setCount] = useState(0)
   
@@ -160,6 +160,9 @@ function home() {
             as ₹300 per month. Cancel anytime.
             </p>
           </div>
+          </div>
+          <div className='iconimg'>
+          <img id='iconimgtag' src={subsicon} alt='img'></img>
           </div>
           </div>
 
