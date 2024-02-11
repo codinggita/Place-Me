@@ -181,8 +181,9 @@ footer{
     
     display: none;
 }
-#resline1{
+#resline{
     display: block;
+    width: 96vw;
 }
 
 }

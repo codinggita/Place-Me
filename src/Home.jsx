@@ -17,6 +17,7 @@ import fbicon from './assets/facebook.png'
 import ldinicon from './assets/linkedin.png'
 import githubicon from './assets/github.png'
 import subsicon from './assets/subscimg.png'
+import resline from './assets/footerline.png'
 function home() {
     // const [count, setCount] = useState(0)
   
@@ -225,9 +226,7 @@ function home() {
             </div>
             <p id='line1'>___________________________________________________________________________________________________________________________________________________________________________________
             </p>
-            <p id='resline1'> 
-              _________________________________________________________________
-            </p>
+            <img id='resline' src={resline} alt='.....'></img>
             <div id='footabout'> 
             <p>About |</p>
             <p>Privacy Notice | Terms of Use | Our Company | Careers  | Advertise with Us</p>
