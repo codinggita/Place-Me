@@ -222,7 +222,7 @@
 }
 #graph1{
   background-color: hsla(0, 0%, 53.7%, 0.13);
-  border-radius: 10px;
+  border-radius: 7px;
   height: 70vh; 
   
 }
@@ -425,4 +425,7 @@ footer{
   padding-right: 3vw;
   margin-left: -3vw;
   margin-top: -9vh;
+}
+#resline1{
+  display: none;
 }
