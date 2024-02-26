@@ -68,10 +68,12 @@
 .headname p{
     display: inline;
     color: #FFF;
-   
+    
 }
 .headbody{
     padding-top: 7vh;
+    color: black;
+
 }
 .headlink{
     padding-top: 7vh;
@@ -86,6 +88,7 @@
         font-weight: 900;
         letter-spacing: 0.05em;
         text-decoration: underline;
+
         
 }
 
@@ -203,10 +206,12 @@
 .box div span{
   font: var(--fs-head3);
   font-weight: bold;
+  color: black;
   
 }
 .box div p{
   font: var( --fs-desc);
+  color: black;
 }
 .trackpagecont,.subscript,.page41{
   margin-left: 11vw;

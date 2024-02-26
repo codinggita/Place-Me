@@ -32,6 +32,7 @@ function Profile(){
            <button id="UP">Update Profile</button>
            <div className="rightcol">
             <div id="row1">
+            
             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             Quas eius ut nobis qui doloribus ullam, molestias nemo repellat 
             officia pariatur dignissimos dicta voluptas itaque at quasi? Reprehenderit
