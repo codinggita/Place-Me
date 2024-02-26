@@ -276,6 +276,7 @@
   justify-content: space-between;
   margin-left: 2vw;
   margin-right: 2vw;
+  color: hsl(0, 0%, 9%);
 }
 .page41up{
   margin-top: 4vh;
@@ -293,6 +294,7 @@
 }
 #card1, #card2,#card3,#card4,#card5,#card6{
   text-align: center;
+  color: hsl(0, 0%, 9%);
 }
 .box3{
   margin-top: 2vh;
@@ -310,11 +312,13 @@
   padding-right: 5vw;
   width: 25vw;
   z-index: 1;
+  color: black;
 }
 #firstdiv p{
   font-family: Poppins-SemiBold;
   font-size: x-large;
   font-weight: 600;
+  color: black;
 }
 #seconddiv{
   background-color: white;
@@ -348,6 +352,7 @@
   margin-left: 1vw;
   font-weight: bold;
   font-family: 'Times New Roman', Times, serif;
+  color: black;
 }
 #seconddivhead2,#thirddivhead2{
   font-size: large;
@@ -355,6 +360,7 @@
   font-family: 'Times New Roman', Times, serif;
   margin-top: -2vh;
   margin-left: 1vw;
+  color: black;
 }
 #seconddivhead3,#thirddivhead3{
   
@@ -362,6 +368,9 @@
   font-size: small;
   margin: 0.5vw;
   color: #0000007d;
+  overflow: scroll;
+  /* overscroll-behavior: none; */
+  scrollbar-width: none;
 }
 #thirddiv{
   background-color: white;
@@ -369,6 +378,7 @@
   border-radius: 10px;
   margin-top: 4vh;
   z-index: 1;
+
 }
 
 footer{
