@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import './Home.css'
+import './HomeResp.css'
 import gifhome from './assets/homegif.mp4'
 import Graph from './graph.jsx'
 import Pichart from './Picharts.jsx'
-
 import card1img from './assets/Effective_outreach.png'
 import card2img from './assets/analytics and reporting.png'
 import card3img from './assets/alert and notification.png'
@@ -17,6 +17,7 @@ import fbicon from './assets/facebook.png'
 import ldinicon from './assets/linkedin.png'
 import githubicon from './assets/github.png'
 import subsicon from './assets/subscimg.png'
+import resline from './assets/footerline.png'
 function home() {
     // const [count, setCount] = useState(0)
   
@@ -223,8 +224,9 @@ function home() {
             <p>Place Me</p>
             <a href='#'><p>goTO Top</p></a>
             </div>
-            <p>___________________________________________________________________________________________________________________________________________________________________________________
+            <p id='line1'>___________________________________________________________________________________________________________________________________________________________________________________
             </p>
+            <img id='resline' src={resline} alt='.....'></img>
             <div id='footabout'> 
             <p>About |</p>
             <p>Privacy Notice | Terms of Use | Our Company | Careers  | Advertise with Us</p>
@@ -242,8 +244,9 @@ function home() {
               <p><a href='www.linkedin.com/in/arsh-sharma-95ab90220'><img id='linicon' src={ldinicon} alt='linkedIn'></img></a></p>
               {/* | <a href=''><img id='' src={} alt=''></img></a></p> */}
             </div>
-            <p>___________________________________________________________________________________________________________________________________________________________________________________
+            <p id='line2'>___________________________________________________________________________________________________________________________________________________________________________________
             </p>
+            
           </div>
           </div>
         </footer>
