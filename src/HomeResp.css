@@ -148,13 +148,13 @@
     margin-right: 0vw;
     margin-top: 25vh;
     height: 60vh;
-    /* margin-bottom: 80vh; */
+    
 }
 .page41up div{
     width: 30vw;
     height: 20vh;
-    overflow: scroll;
-    scrollbar-width: none;
+    overflow: hidden;
+    
 }
 .page41dow{
     margin-top: 6vh;
@@ -162,8 +162,7 @@
 .page41dow div{
     width: 30vw;
     height: 20vh;
-    overflow: scroll;
-    scrollbar-width: none;
+    overflow: hidden;
     
 }
 footer{
@@ -185,5 +184,18 @@ footer{
     display: block;
     width: 96vw;
 }
+#card1:hover,#card2:hover,#card3:hover,#card4:hover,#card5:hover,#card6:hover{
+    
+    position: absolute;
+    width: auto;
+    height: auto;
+    background: transparent linear-gradient(90deg,#6597CB 0%,#35369B 100%) 0% 0% no-repeat;
+    color: whitesmoke;
+    flex-direction: column;
+    left: 10vw;
+    right: 10vw;
+    
+}
+
 
 }
